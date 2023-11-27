@@ -7,6 +7,6 @@ Well, document selection is currently done one by one (ordering issue with tKint
 
 ## How to use
 - Clone the project but firstly install the requirements from `requirements.txt` using `pip install -r requirements.txt`
-- Or download the executable program from...
+- Or download the executable program from [here](https://www.mediafire.com/file/jatgxfns4m2zevk/MergGradPdfProject.rar/file)
 
 ### I named it MergGradPdfProject (I literally named it while writing this line, just thought it's cool to have a name, don't mind the cringe name)
