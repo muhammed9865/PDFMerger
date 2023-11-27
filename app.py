@@ -56,11 +56,12 @@ class App:
         
 
     def on_save_clicked(self):
-        self.filedialog.save_as(
+        file = self.filedialog.save_as(
             title="Save Result file as",
             extension="pdf"
         )
         showinfo("Saved", "Saved successfully!")
+        self.pdfMerger.save_as(file)
         self.pdfMerger.clear()
         self.filesNamesLabel["text"] = ""
         self.mergeStatus["text"] = ""
