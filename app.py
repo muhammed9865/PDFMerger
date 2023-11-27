@@ -5,8 +5,10 @@ from file_dialog import FileDialog
 
 class App:
     def __init__(self) -> None:
-        self.window = tk.Tk()
-        self.window.title = "PDF Merger"
+        self.window = tk.Tk(
+            screenName="MergGradPdfProject"
+        )
+        self.window.wm_title("MergGradPdfProject")
         self.window.geometry("500x500")
         self.window.configure(bg="white")
         self.filedialog = FileDialog()
@@ -68,7 +70,7 @@ class App:
     def init(self):
         # Create widgets
         # Label
-        headline = tk.Label(text="Hello, welcome to PDF Merger!", font= ("Arial", 24),
+        headline = tk.Label(text="Hello, welcome to MergGradPdfProject!", font= ("Arial", 20),
                             fg="black", bg="white")
         headline.pack()
 
